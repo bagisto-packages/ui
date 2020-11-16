@@ -1,0 +1,26 @@
+{
+    "name": "bagisto-packages/ui",
+    "license": "MIT",
+    "require": {
+        "konekt/concord": "^1.8",
+        "laravel/framework": "^7.0|^8.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Http/helpers.php"
+        ],
+        "psr-4": {
+            "BagistoPackages\\Ui\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
