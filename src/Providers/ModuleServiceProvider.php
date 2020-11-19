@@ -23,11 +23,11 @@ class ModuleServiceProvider extends BaseModuleServiceProvider
         ], 'public');
 
         $this->publishes([
-            __DIR__ . '/../Resources/views' => resource_path('views/vendor/ui'),
+            __DIR__ . '/../resources/views' => resource_path('views/vendor/ui'),
         ]);
 
         $this->publishes([
-            __DIR__ . '/../Resources/lang' => resource_path('lang/vendor/ui'),
+            __DIR__ . '/../resources/lang' => resource_path('lang/vendor/ui'),
         ]);
     }
 
